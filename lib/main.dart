@@ -41,7 +41,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   void initState() {
     super.initState();
-    _model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: _apiKey);
+    _model = GenerativeModel(model: '', apiKey: _apiKey);
     _chat = _model.startChat();
   }
 
