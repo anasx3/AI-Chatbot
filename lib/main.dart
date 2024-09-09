@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
-const String _apiKey = "AIzaSyAOXEInTeZIX2ZgQajoKvZgzMA7jKSQMAo";
+const String _apiKey = "";
 
 void main() {
   runApp(MyApp());
